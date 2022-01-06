@@ -14,7 +14,9 @@ describe('User', () => {
 
     await waitFor(() => {
       expect(screen.getByText(`Name: ${mockUsers[1].name}`)).toBeInTheDocument();
+      // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
       expect(screen.getByText(`Email: ${mockUsers[1].email}`)).toBeInTheDocument();
+      // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
       expect(screen.getByText(`Id: ${mockUsers[1].id}`)).toBeInTheDocument();
     });
   });
@@ -80,6 +82,7 @@ describe('User', () => {
 
     await waitFor(() => {
       expect(
+        // eslint-disable-next-line testing-library/prefer-presence-queries
         screen.queryByText(`User with Id ${mockUsers[1].id} successfully deleted!`)
       ).toBeInTheDocument();
     });

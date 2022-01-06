@@ -6,11 +6,12 @@ async function getUsers() {
   try {
     return api(`/users/`);
   } catch (error) {
+    // @ts-ignore
     throw new Error(`Error fetching Users`, error);
   }
 }
 
-export function Users({ setSelectedUser }) {
+export function Users({ setSelectedUser }: any) {
   const { isLoading, data: users, isError } = useQuery('users', getUsers);
 
   if (isError) {
@@ -25,7 +26,7 @@ export function Users({ setSelectedUser }) {
     <>
       <div>Users</div>
       <ul>
-        {users.map((user) => (
+        {users.map((user: any) => (
           <li key={user.id} onClick={() => setSelectedUser(user)}>
             <div>Name: {user.name}</div>
           </li>

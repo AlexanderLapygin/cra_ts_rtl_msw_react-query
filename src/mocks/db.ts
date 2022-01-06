@@ -21,6 +21,7 @@ export const mockUsers = [
 // Create a "db" with an user model and some defaults
 export const db = factory({
   user: {
+// @ts-ignore
     id: primaryKey(),
     name: () => 'Firstname',
     email: () => 'email@email.com',
@@ -28,4 +29,5 @@ export const db = factory({
 });
 
 // create 3 users
+// @ts-ignore
 mockUsers.forEach((user) => db.user.create(user));

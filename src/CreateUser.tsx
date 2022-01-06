@@ -1,16 +1,18 @@
 import { useMutation, useQueryClient } from 'react-query';
 import { api } from './api';
 
-async function createUser(newUser) {
+async function createUser(newUser: any) {
   try {
     return api(`/users/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
+      // @ts-ignore
       body: JSON.stringify(newUser),
     });
   } catch (error) {
+    // @ts-ignore
     throw new Error(`Error creating User with Id ${newUser.id}: `, error);
   }
 }
@@ -26,6 +28,7 @@ export function CreateUser() {
   return (
     <button
       onClick={() =>
+        // @ts-ignore
         createUserMutation.mutate({
           id: '4',
           name: 'John',

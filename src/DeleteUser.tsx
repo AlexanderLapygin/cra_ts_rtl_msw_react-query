@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useMutation, useQueryClient } from 'react-query';
 import { api } from './api';
 
-async function deleteUser(userId) {
+async function deleteUser(userId: any) {
   try {
     return api(`/users/${userId}`, {
       method: 'DELETE',
@@ -11,11 +11,12 @@ async function deleteUser(userId) {
       },
     });
   } catch (error) {
+    // @ts-ignore
     throw new Error(`Error deleting User with Id ${userId}: `, error);
   }
 }
 
-export function DeleteUser({ userId, setSelectedUser }) {
+export function DeleteUser({ userId, setSelectedUser }: any) {
   const [isDeleted, setIsDeleted] = useState(false);
   const queryClient = useQueryClient();
   const deleteUserMutation = useMutation(() => deleteUser(userId), {

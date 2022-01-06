@@ -3,15 +3,16 @@ import { UpdateUser } from './UpdateUser';
 import { DeleteUser } from './DeleteUser';
 import { api } from './api';
 
-async function getUserById(userId) {
+async function getUserById(userId: any) {
   try {
     return api(`/users/${userId}`);
   } catch (error) {
+    // @ts-ignore
     throw new Error(`Error fetching User with Id ${userId}: `, error);
   }
 }
 
-export function User({ userId, setSelectedUser }) {
+export function User({ userId, setSelectedUser }: any) {
   const { isLoading, data: user, isError } = useQuery(['users', userId], () => getUserById(userId));
 
   if (isError) {

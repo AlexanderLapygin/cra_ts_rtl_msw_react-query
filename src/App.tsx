@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { Users } from './Users';
 import { User } from './User';
 
+console.log('process.env.NODE_ENV = ' + process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {
   const { worker } = require('./mocks/browser');
   worker.start();
@@ -11,7 +12,7 @@ if (process.env.NODE_ENV === 'development') {
 const queryClient = new QueryClient();
 
 function App() {
-  const [selectedUser, setSelectedUser] = useState(null);
+  const [selectedUser, setSelectedUser]: any = useState(null);
   return (
     <QueryClientProvider client={queryClient}>
       {selectedUser ? (
