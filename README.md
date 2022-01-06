@@ -4,6 +4,8 @@
     </a>
 </div>
 
+---
+
 # cra_ts_rtl_msw_react-query
 
 ## Feature tags
