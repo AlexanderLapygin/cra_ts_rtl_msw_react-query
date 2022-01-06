@@ -1,7 +1,7 @@
 import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { User } from './User';
-import { mockUsers } from '../mocks/db';
+import { mockUsers } from '../api/mocks/db';
 
 describe('User', () => {
   test('renders  user info', async () => {

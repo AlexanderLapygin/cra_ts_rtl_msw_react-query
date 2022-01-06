@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import { CreateUser } from './CreateUser';
-import { api } from '../api';
+import { api } from '../api/api';
 
 async function getUsers() {
   try {

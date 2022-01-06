@@ -5,7 +5,7 @@ import { User } from './User/User';
 
 console.log('process.env.NODE_ENV = ' + process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {
-  const { worker } = require('./mocks/browser');
+  const { worker } = require('./api/mocks/browser');
   worker.start();
 }
 
