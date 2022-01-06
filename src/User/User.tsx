@@ -1,7 +1,7 @@
 import { useQuery } from 'react-query';
 import { UpdateUser } from './UpdateUser';
 import { DeleteUser } from './DeleteUser';
-import { api } from './api';
+import { api } from '../api';
 
 async function getUserById(userId: any) {
   try {

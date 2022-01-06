@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useMutation, useQueryClient } from 'react-query';
-import { api } from './api';
+import { api } from '../api';
 
 async function deleteUser(userId: any) {
   try {

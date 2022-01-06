@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { Users } from './Users';
-import { User } from './User';
+import { Users } from './User/Users';
+import { User } from './User/User';
 
 console.log('process.env.NODE_ENV = ' + process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {

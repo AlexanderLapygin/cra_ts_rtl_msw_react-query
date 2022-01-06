@@ -2,8 +2,8 @@ import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { rest } from 'msw';
 import { Users } from './Users';
-import { mockUsers } from './mocks/db';
-import { server } from './mocks/server';
+import { mockUsers } from '../mocks/db';
+import { server } from '../mocks/server';
 
 describe('Users', () => {
   test('renders loading', async () => {
