@@ -5,7 +5,10 @@
 ## Feature tags
 
 - create-react-app
+- msw
 - react
+- react-query
+- rtl
 - test
 - typescript
 
