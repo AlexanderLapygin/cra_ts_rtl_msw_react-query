@@ -4,6 +4,8 @@
     </a>
 </div>
 
+UNDER DEVELOPMENT
+
 # Мinimalistic CRA-in-TS starter with React Query using RTL and MSW for testing
 
 ## Feature tags
