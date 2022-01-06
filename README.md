@@ -4,17 +4,17 @@
     </a>
 </div>
 
-# cra_ts_rtl_msw_react-query
+# Мinimalistic CRA-in-TS starter with React Query using RTL and MSW for testing
 
 ## Feature tags
 
 - create-react-app
-- msw
+- mock-server-worker
 - react
 - react-query
-- rtl
+- react-testing-library
 - template
-- test
+- testing
 - typescript
 
 ---
