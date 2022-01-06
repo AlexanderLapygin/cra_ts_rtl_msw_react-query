@@ -4,7 +4,7 @@
     </a>
 </div>
 
-# CRA-in-TS starter with React Query and testing by RTL with MSW
+# CRA-in-TS starter with React Query and testing with RTL and MSW
 
 ## Feature tags
 
