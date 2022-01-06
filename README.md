@@ -34,7 +34,11 @@ UNDER DEVELOPMENT
 
 ## Installation
 
-TBD
+Being in the repository root directory, run:
+
+```sh
+yarn
+```
 
 ## Running
 
