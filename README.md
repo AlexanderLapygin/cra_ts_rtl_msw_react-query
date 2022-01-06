@@ -1,4 +1,4 @@
-<div align="center">
+<div "center">
     <a href="https://github.com/softspiders/softspiders">
       <img src="https://avatars.githubusercontent.com/u/47006425?v=4"width="100" height="100"/>
     </a>
