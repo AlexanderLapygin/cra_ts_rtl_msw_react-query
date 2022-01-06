@@ -13,13 +13,13 @@
 - test
 - typescript
 
+---
+
 ## Direct ancestors
 
-TBD
+[***-msw,react-query, rtl***: cra-typescript-test](https://github.com/softspiders/cra-typescript-test)
 
-## Direct descendants
-
-[cra-ts-storybook-snapshot-testing](https://github.com/softspiders/cra-ts-storybook-snapshot-testing)
+---
 
 ## Requirements
 
