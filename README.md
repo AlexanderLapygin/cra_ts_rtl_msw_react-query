@@ -4,8 +4,6 @@
     </a>
 </div>
 
-[SOFTSPIDERS](https://github.com/softspiders/softspiders)
-
 # cra_ts_rtl_msw_react-query
 
 ## Feature tags
@@ -66,3 +64,5 @@ TBD
 ### License
 
 Licensed under the [MIT license](./LICENSE).
+
+[SOFTSPIDERS](https://github.com/softspiders/softspiders)
