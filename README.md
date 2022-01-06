@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# cra-typescript-test
+# cra_ts_rtl_msw_react-query
 
 ## Feature tags
 
@@ -9,6 +9,7 @@
 - react
 - react-query
 - rtl
+- template
 - test
 - typescript
 
