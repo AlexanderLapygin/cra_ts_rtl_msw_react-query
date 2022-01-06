@@ -1,3 +1,9 @@
+<div align="center">
+    <a href="https://github.com/softspiders/softspiders">
+      <img src="./diagrams/sslogo-from-github-20.png"/>
+    </a>
+</div>
+
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
 # cra_ts_rtl_msw_react-query
