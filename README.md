@@ -34,10 +34,6 @@ UNDER DEVELOPMENT
 
 ## Installation
 
-Two steps are required:
-
-### Install *create-react-app*
-
 TBD
 
 ## Running
@@ -62,7 +58,7 @@ yarn test
 
 ## Inspired by
 
-TBD
+[Develop and test React apps with React Query, MSW and React Testing Library (Dennis Kortsch)](https://www.denniskortsch.de/posts/msw-react-testing)
 
 ### License
 
