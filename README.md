@@ -23,10 +23,7 @@
 
 ## Requirements
 
-* [*Node 8.10.0* o later](https://nodejs.org/en/download/package-manager/)
-* [*create-react-app*](https://facebook.github.io/create-react-app/)
-
-*TypeScript* and other dependencies are transitive and therefore installed implicitly.
+* [Node.js](https://nodejs.org/en/download/package-manager/)
 
 ## Installation
 
@@ -34,29 +31,11 @@ Two steps are required:
 
 ### Install *create-react-app*
 
-```sh
-npm i -g create-react-app
-```
-
-### Generate+Install *createreactapp-typescript-test* application (*create-react-app* with *TypeScript*)
-
-All code in this repository are generated and installed at once by the following *create-react-app* command.
-
-Being in some parent directory, run:
-
-```sh
-create-react-app createreactapp-typescript-test --scripts-version=react-scripts-ts
-```
+TBD
 
 ## Running
 
-Being in the *createreactapp-typescript-test* directory, run:
-
-```sh
-node start
-```
-
-or
+Being in the repository root directory, run:
 
 ```sh
 yarn start
@@ -64,13 +43,7 @@ yarn start
 
 ## Running test (in watch mode)
 
-Being in the *createreactapp-typescript-test* directory, run:
-
-```sh
-node test
-```
-
-or
+Being in the repository root directory, run:
 
 ```sh
 yarn test
@@ -82,7 +55,7 @@ yarn test
 
 ## Inspired by
 
-[React+TypeScript+TDD](https://react-typescript-tdd.firebaseapp.com/)
+TBD
 
 ### License
 
