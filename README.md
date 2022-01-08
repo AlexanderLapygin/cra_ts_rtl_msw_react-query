@@ -25,6 +25,10 @@
 - [***-msw,react-query, rtl***: cra-typescript-test](https://github.com/softspiders/cra-typescript-test)
 - [***-ts***: cra_rtl_msw_react-query](https://github.com/AlexanderLapygin/cra_rtl_msw_react-query)
 
+## Direct descendants
+
+[***+openapi-backend***: cra_ts_react-query_rtl_msw_openapi-backend](https://github.com/AlexanderLapygin/cra_ts_react-query_rtl_msw_openapi-backend)
+
 ---
 
 ## Requirements
