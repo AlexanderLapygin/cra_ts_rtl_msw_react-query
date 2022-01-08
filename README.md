@@ -24,7 +24,7 @@
 ## Direct ancestors
 
 - [***-msw,react-query, rtl***: cra-typescript-test](https://github.com/softspiders/cra-typescript-test)
-- [***-ts***: cra_rtl_msw_react-query](https://github.com/AlexanderLapygin/cra_rtl_msw_react-query)
+- [***-rest,ts***: cra_rtl_msw_react-query](https://github.com/AlexanderLapygin/cra_rtl_msw_react-query)
 
 ## Direct descendants
 
