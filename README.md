@@ -23,12 +23,12 @@
 
 ## Direct ancestors
 
-- [***-msw,react-query,rest,rtl***: cra-typescript-test](https://github.com/softspiders/cra-typescript-test)
+- [***- react-query***: cra_ts_rtl_msw](https://github.com/AlexanderLapygin/cra_ts_rtl_msw)
 - [***-ts***: cra_rtl_msw_react-query](https://github.com/AlexanderLapygin/cra_rtl_msw_react-query)
 
 ## Direct descendants
 
-[***+openapi-backend***: cra_ts_react-query_rtl_msw_openapi-backend](https://github.com/AlexanderLapygin/cra_ts_react-query_rtl_msw_openapi-backend)
+[***+ openapi-backend***: cra_ts_react-query_rtl_msw_openapi-backend](https://github.com/AlexanderLapygin/cra_ts_react-query_rtl_msw_openapi-backend)
 
 ---
 
